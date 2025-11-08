@@ -1,29 +1,45 @@
 body {
-  font-family: Times New Roman, Garamond;
-  background-color: #f5c6ed;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe4e6;
   text-align: center;
-  padding: 70px;
+  padding: 50px;
 }
 
 h1 {
-  color: #522652;
+  color: #ff69b4;
+  text-shadow: 2px 2px #fff;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
-li {
-  margin: 10px 0;
+.project-card {
+  background: #fff0f5;
+  border: 2px solid #ffb6c1;
+  border-radius: 20px;
+  width: 150px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-a {
-  text-decoration: none;
-  color: #330324;
+.project-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 105, 180, 0.4);
+}
+
+.project-card img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.project-card p {
+  margin-top: 10px;
+  color: #ff1493;
   font-weight: bold;
-}
-
-a:hover {
-  color: #871678;
 }
