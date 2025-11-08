@@ -2,15 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <title>nisa's portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>my portfolio!</h1>
-  <p>some coding projects</p>
-  <ul>
-    <li><a href="project1.html">Project 1</a></li>
-    <li><a href="project2.html">Project 2</a></li>
-  </ul>
+  <h1>✨ my portfolio ✨</h1>
+  <div class="projects-container">
+    <!-- Project Card -->
+    <div class="project-card" onclick="openProject('https://example.com/project1')">
+      <img src="https://via.placeholder.com/150" alt="Project 1">
+      <p>Project 1</p>
+    </div>
+    
+    <div class="project-card" onclick="openProject('https://example.com/project2')">
+      <img src="https://via.placeholder.com/150" alt="Project 2">
+      <p>Project 2</p>
+    </div>
+    
+    <div class="project-card" onclick="openProject('https://example.com/project3')">
+      <img src="https://via.placeholder.com/150" alt="Project 3">
+      <p>Project 3</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
