@@ -1,3 +1,8 @@
+//loading transition
+window.addEventListener("load", () => {
+  document.body.classList.add("loaded");
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".project-card");
 
