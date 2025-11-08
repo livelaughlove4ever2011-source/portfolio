@@ -1,12 +1,12 @@
 body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  background-color: #ffe4e6;
+  font-family: 'Garamond', cursive, Times New Roman;
+  background-color: #e4d3f0;
   text-align: center;
   padding: 50px;
 }
 
 h1 {
-  color: #ff69b4;
+  color: #574569;
   text-shadow: 2px 2px #fff;
 }
 
@@ -19,8 +19,8 @@ h1 {
 }
 
 .project-card {
-  background: #fff0f5;
-  border: 2px solid #ffb6c1;
+  background: #e3dce8;
+  border: 2.5px solid #6d5a94;
   border-radius: 20px;
   width: 150px;
   cursor: pointer;
@@ -40,6 +40,6 @@ h1 {
 
 .project-card p {
   margin-top: 10px;
-  color: #ff1493;
+  color: #9148f7;
   font-weight: bold;
 }
