@@ -2,28 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>nisa's portfolio</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1> my portfolio! </h1>
-  <div class="projects-container">
-    <!-- Project Card -->
-    <div class="project-card" onclick="openProject('https://example.com/project1')">
-      <img src="https://via.placeholder.com/150" alt="Project 1">
-      <p>Project 1</p>
+  <!-- Background container for particles -->
+  <canvas id="bgCanvas"></canvas>
+
+  <header>
+    <h1>✨ my portfolio! ✨</h1>
+  </header>
+
+  <section class="projects-container">
+    <div class="project-card" data-url="project1.html">
+      <img src="project1.png" alt="project one">
+      <p>my personalized grades displayer</p>
     </div>
-    
-    <div class="project-card" onclick="openProject('https://example.com/project2')">
-      <img src="https://via.placeholder.com/150" alt="Project 2">
-      <p>Project 2</p>
+    <div class="project-card" data-url="project2.html">
+      <img src="project2.png" alt="project two">
+      <p>calculator app</p>
     </div>
-    
-    <div class="project-card" onclick="openProject('https://example.com/project3')">
-      <img src="https://via.placeholder.com/150" alt="Project 3">
-      <p>Project 3</p>
+    <div class="project-card" data-url="project3.html">
+      <img src="project3.png" alt="project three">
+      <p>my mini game</p>
     </div>
-  </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
