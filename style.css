@@ -13,8 +13,8 @@ body.loaded {
 
 body {
   margin: 0;
-  font-family: 'Comic Sans MS', cursive;
-  background: linear-gradient(135deg, #e0c3fc, #8ec5fc); /* light purple/pastel gradient */
+  font-family: 'Didot', cursive;
+  background: linear-gradient(135deg, #b4c6ed, #a271de);
   overflow-x: hidden;
   position: relative;
 }
@@ -22,8 +22,8 @@ body {
 header h1 {
   text-align: center;
   margin: 40px 0;
-  color: #6a0dad;
-  text-shadow: 2px 2px #fff;
+  color: #392b87;
+  text-shadow: 2px 2px ##d4d1e8;
 }
 
 .projects-container {
@@ -45,7 +45,7 @@ header h1 {
 }
 
 .project-card:hover {
-  transform: translateY(-10px) scale(1.05);
+  transform: translateY(-10px) scale(1.10);
   box-shadow: 0 10px 20px rgba(138, 43, 226, 0.4);
 }
 
@@ -60,7 +60,7 @@ header h1 {
   margin-top: 10px;
 }
 
-/* Background canvas covers entire screen */
+
 #bgCanvas {
   position: fixed;
   top: 0;
